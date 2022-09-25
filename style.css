@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 270px;
+  height: 450px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.header-images {
+  margin-top: 5%;
+  margin-left: 5.5%;
+  height: 220px;
+  width: 240px;
+  border-radius: 10px;
+}
+
+.text-content h2 {
+  color: white;
+  font-size: 1.2em;
+  margin-left: 5.5%;
+  margin-top: 7%;
+}
+
+.text-content p {
+  color: white;
+  font-size: 0.9em;
+  margin-left: 5.5%;
+  margin-top: 7%;
+  color: hsl(215, 51%, 70%);
+}
+
+.eth-clock {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 7%;
+  margin-left: 5.5%;
+}
+
+.eth-price {
+  width: 8px;
+  height: 14px;
+}
+
+.eth-p {
+  color: hsl(178, 100%, 50%);
+  font-size: 0.8em;
+  margin-left: 2%;
+}
+
+.text-clock {
+  margin-left: 35%;
+}
+
+.text-clock {
+  width: 15px;
+  height: 15px;
+}
+
+.clock-p {
+  color: hsl(178, 100%, 50%);
+  font-size: 0.8em;
+  margin-left: 2%;
+  color: hsl(215, 51%, 70%);
+  text-align: center;
+}
+
+hr {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: hsl(215, 32%, 27%);
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.account img {
+  border: 1px solid white;
+  border-radius: 30px;
+  width: 25px;
+  height: 25px;
+}
+
+.account p {
+  margin-left: 5%;
+  font-size: 0.8em;
+  color: hsl(215, 51%, 70%);
+}
+
+span {
+  color: white;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
