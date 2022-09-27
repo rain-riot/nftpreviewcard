@@ -49,6 +49,10 @@ a:hover {
   color: hsl(178, 100%, 50%);
 }
 
+.text-content a {
+  text-decoration: none;
+}
+
 .text-content p {
   color: white;
   font-size: 0.9em;
@@ -125,6 +129,7 @@ hr {
 
 .author-name {
   color: white;
+  text-decoration: none;
 }
 
 .author-name:hover {
